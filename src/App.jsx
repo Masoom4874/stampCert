@@ -87,7 +87,8 @@ const CertificationPortal = () => {
               ref={iframeRef}
               src={pdfPreviewUrl}
               width="100%"
-              height="500px"
+              height="100%"
+              style={{ minHeight: "500px" }}
               title="PDF Preview"
             />
           </Col>
