@@ -57,7 +57,7 @@ const CertificationPortal = () => {
       <h2>Certification Portal</h2>
 
       <Row className="align-items-end mb-5">
-        <Col>
+        <Col xs={12} md={12} lg={4} className="mb-3">
           <h4>Please Enter Name</h4>
           <Form.Control
             placeholder="Enter Name"
@@ -66,7 +66,7 @@ const CertificationPortal = () => {
           />
         </Col>
 
-        <Col>
+        <Col xs={12} md={12} lg={4} className="mb-3">
           <h4>Please Select Stamp</h4>
           <Form.Control
             type="file"
@@ -74,7 +74,7 @@ const CertificationPortal = () => {
             onChange={handleStampChange}
           />
         </Col>
-        <Col>
+        <Col xs={12} md={12} lg={4} className="mb-3">
           <Button onClick={handleCreateCertificate}>Create Certificate</Button>
         </Col>
       </Row>
