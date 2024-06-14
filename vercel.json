@@ -11,14 +11,14 @@
     ],
     "routes": [
         {
-            "src": "/(.*)",
+            "src": "/.*",
             "dest": "/index.html"
         }
     ],
     "rewrites": [
         {
-            "source": "/Image",
-            "destination": "/(.*)"
+            "source": "/Image(.*)",
+            "destination": "/index.html"
         }
     ]
 }
