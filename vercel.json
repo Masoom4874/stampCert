@@ -13,12 +13,10 @@
         {
             "src": "/.*",
             "dest": "/index.html"
-        }
-    ],
-    "rewrites": [
+        },
         {
-            "source": "/Image(.*)",
-            "destination": "/index.html"
+            "src": "/Image",
+            "dest": "/index.html"
         }
     ]
 }
