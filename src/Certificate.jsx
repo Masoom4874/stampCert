@@ -57,7 +57,7 @@ const CertificationPortal = () => {
   return (
     <div className="main-page">
       <Button
-        onClick={() => navigate("/Image")}
+        onClick={() => navigate("/image")}
         variant="primary"
         className="mb-3"
       >
